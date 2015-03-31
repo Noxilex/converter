@@ -1,9 +1,6 @@
 package iut.tdd;
 
-<<<<<<< HEAD
-public class TestConvert11_16 {
 
-=======
 import junit.framework.Assert;
 
 import org.junit.Test;
@@ -62,5 +59,5 @@ public class TestConvert11_16 {
 	public void test_text2num_16 () {
 		Assert.assertEquals("16", Convert.text2num("seize"));
 	}
->>>>>>> 1256d7eb05450ea4e829f5149c8c39b41ffee889
+
 }

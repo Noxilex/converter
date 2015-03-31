@@ -49,6 +49,10 @@ public class Convert {
 				return tradDiz[i];				
 			}
 		}
+		if(!num11to16_2text(input).equals(null)){
+			return num11to16_2text(input);
+		}
+
 		return null;
 	}
 	
@@ -72,6 +76,9 @@ public class Convert {
 			else if(tradDiz[i].equals(input)){
 				return dizaine[i];				
 			}
+		}
+		if(!text_2num11to16(input).equals(null)){
+			return text_2num11to16(input);
 		}
 		return null;
 	}
