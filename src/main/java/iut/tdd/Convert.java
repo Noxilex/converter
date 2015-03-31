@@ -7,7 +7,7 @@ public class Convert {
 	
 	public static String num2text(String input) {
 		for(int i = 0; i < numéros.length; i++){
-			if(numéros[i] == input){
+			if(numéros[i].equals(input)){
 				return tradNum[i];
 			}
 		}
@@ -15,8 +15,8 @@ public class Convert {
 	}
 	
 	public static String text2num(String input) {
-		for(int i = 0; i < numéros.length; i++){
-			if(tradNum[i] == input){
+		for(int i = 0; i < tradNum.length; i++){
+			if(tradNum[i].equals(input)){
 				return numéros[i];
 			}
 		}
