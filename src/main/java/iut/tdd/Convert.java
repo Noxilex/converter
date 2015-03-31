@@ -36,6 +36,26 @@ public class Convert {
 				return numeros[i];
 			}
 		}
+		for(int i = 0; i < dizaine.length; i++){			
+			if(input.equals(tradDiz[5]+"-"+tradDiz[0])){
+				return dizaine[6];					
+				
+			}
+		 	else if(input.equals(tradNum[4]+"-"+tradDiz[1])){
+				return dizaine[7];					
+				
+			}
+			
+			else if(input.equals(tradNum[4]+"-"+tradDiz[1]+"-"+tradDiz[0])){
+				return dizaine[8];					
+				
+			}		
+			
+			else if(tradDiz[i].equals(input)){
+				return dizaine[i];				
+			}
+		}
+		
 		return null;
 	}
 }
