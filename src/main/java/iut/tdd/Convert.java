@@ -15,6 +15,11 @@ public class Convert {
 	}
 	
 	public static String text2num(String input) {
-		return "0";
+		for(int i = 0; i < numéros.length; i++){
+			if(tradNum[i] == input){
+				return numéros[i];
+			}
+		}
+		return null;
 	}
 }
